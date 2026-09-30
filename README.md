@@ -25,5 +25,6 @@ A secure, real-time platform for university students, staff, and security office
 
 ```bash
 pnpm install
+pnpm --filter @repo/api prisma:generate
 pnpm db:up        # Start MySQL + Redis via Docker
 pnpm dev          # Start all apps
